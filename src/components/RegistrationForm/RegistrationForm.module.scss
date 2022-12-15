@@ -1,0 +1,20 @@
+@import '../../assets/styles/media';
+@import '../../assets/styles/_font.scss';
+@import '../../assets/styles/colors';
+
+.container {
+  padding: 32px 0px 36px;
+
+  @include media-tablet {
+    margin: 0 auto;
+    width: 532px;
+    height: 616px;
+
+    background-color: $color-white;
+    border-radius: 20px;
+  }
+}
+
+.input {
+  text-transform: lowercase;
+}

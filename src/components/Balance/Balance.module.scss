@@ -1,0 +1,38 @@
+@import '../../assets/styles/media';
+@import '../../assets/styles/_font.scss';
+@import '../../assets/styles/colors';
+
+.balance {
+  border-radius: 30px;
+  background-color: $color-white;
+  width: 280px;
+  height: 80px;
+  padding-top: 8px;
+  margin: 0 auto;
+  margin-top: -15px;
+  margin-bottom: 32px;
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    margin: 0;
+    padding-top: 8px;
+    width: 336px;
+    height: 80px;
+    margin-bottom: 20px;
+  }
+
+  @media screen and (min-width: 1280px) {
+  }
+}
+
+.title {
+  @include font-circe-small-big;
+
+  color: $color-grey;
+}
+
+.text {
+  display: block;
+  @include font-poppins-small-big;
+  color: $color-main-text;
+  font-weight: bold;
+}

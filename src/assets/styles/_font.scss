@@ -1,0 +1,79 @@
+// mixin for font Circle
+@mixin font-circe-small {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.47;
+}
+
+@mixin font-circe-small-light {
+  font-weight: 400;
+  font-size: 12;
+  line-height: 1.47;
+}
+
+@mixin font-circe-small-big {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.47;
+}
+
+@mixin font-circe-light-medium {
+  font-family: 'Circe';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+@mixin font-circe-medium {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.47;
+}
+
+@mixin font-circe-medium-light {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.125;
+}
+
+// mixins for font Poppins
+@mixin font-poppins-small-light {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+}
+@mixin font-poppins-small {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+}
+@mixin font-poppins-small-big {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.5;
+}
+
+@mixin font-poppins-medium {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+@mixin font-poppins-medium-light {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.47;
+}
+
+@mixin font-poppins-medium-big {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.5;
+}
+

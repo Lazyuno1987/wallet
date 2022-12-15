@@ -1,0 +1,27 @@
+@import '../../assets/styles/font';
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 64px;
+}
+
+.logo {
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+
+  @media (min-width: 768px) {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.text {
+  @include font-poppins-medium;
+
+  @media (min-width: 768px) {
+    @include font-poppins-medium-big;
+  }
+}

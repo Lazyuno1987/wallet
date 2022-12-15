@@ -1,0 +1,91 @@
+.modal_wrapper {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  z-index: 1;
+}
+
+.modal_wrapper.open {
+  height: 100%;
+  display: block;
+}
+
+.modal_wrapper.close {
+  height: 0;
+  display: none;
+}
+
+.modal_body {
+  position: relative;
+  min-height: 150px;
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  margin-top: 5%;
+  padding: 20px;
+  border-radius: 10px;
+  max-height: 100%;
+}
+
+.modal_close {
+  text-align: right;
+  margin-top: -15px;
+  font-size: 40px;
+  color: gray;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  float: right;
+}
+
+.modal_body h2 {
+  font-family: 'Circe';
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+  background-color: #6e78e8;
+  color: white;
+}
+
+.button_y {
+  left: 18%;
+  position: absolute;
+}
+
+.button_y:hover {
+  width: 105px;
+  height: 45px;
+}
+
+.button_n {
+  position: absolute;
+  right: 18%;
+}
+
+.button_n:hover {
+  width: 105px;
+  height: 45px;
+}
+
+.close_svg {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 15px;
+}
+
+.close_svg:hover {
+  width: 20px;
+}
