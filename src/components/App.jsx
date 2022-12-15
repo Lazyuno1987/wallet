@@ -57,7 +57,8 @@ export const App = () => {
             </PrivateRoute>
           }
         >
-          <Route
+          <Route index element={<Navigate to="/home" />} />
+          {/* <Route
             index
             element={
               <Media queries={{ table: '(min-width: 767px)' }}>
@@ -66,7 +67,7 @@ export const App = () => {
                 }}
               </Media>
             }
-          />
+          /> */}
 
           <Route path="home" element={<HomeTab />} />
           <Route path="statistics" element={<StatisticsDiagram />} />
@@ -82,7 +83,7 @@ export const App = () => {
           />
         </Route>
 
-        <Route path="*" element={<Navigate to="/home" />} />
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Suspense>
   );

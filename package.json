@@ -2,7 +2,7 @@
   "name": "wallet",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lazyuno1987.github.io/wallet",
+  "homepage": "https://639b2b1c5bdc721f9e7b753e--spectacular-cassata-9308b9.netlify.app",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
     "@testing-library/jest-dom": "^5.16.3",
