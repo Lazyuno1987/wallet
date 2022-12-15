@@ -1,8 +1,8 @@
 {
-  "name": "wallet-project-front",
+  "name": "wallet",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://doctordenis.github.io/wallet-project-front/",
+  "homepage": "https://lazyuno1987.github.io/wallet",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
     "@testing-library/jest-dom": "^5.16.3",
